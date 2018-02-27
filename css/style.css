@@ -43,11 +43,28 @@ header{
   display: flex;
   justify-content: space-around;
   align-items: center;
-
+  text-align: center;
+  text-shadow: 2px 2px 3px #02010a;
+  padding-bottom: 2%;
 }
-.imagenessec img{
-  width: 45%;
-  margin-top: 1%;
-  margin-bottom: 1%;
+.imagenessec1 img, .imagenessec2 img{
+  width: 85%;
+  margin-top: 2%;
+  margin-bottom: 2%;
   border: 2px solid black;
+}
+footer{
+  display: flex;
+  display: -webkit-flex;
+  flex-flow: row wrap;
+  -webkit-flex-flow: row wrap;
+  background: #C6d5c5;
+  color: black;
+}
+.pie{
+  box-sizing: border-box;
+  width: 25%;
+}
+.pie img{
+  width: 8%;
 }
