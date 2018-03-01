@@ -27,6 +27,12 @@ header{
 #menuencabezado{
   margin-right: -80px;
 }
+a{
+  text-decoration: none;
+}
+#menuencabezado a:visited{
+  color: white;
+}
 .imgcentral{
   height: 300px;
   background-color: #82c3a6;
@@ -47,6 +53,9 @@ header{
   text-shadow: 2px 2px 3px #02010a;
   padding-bottom: 2%;
 }
+.imagenessec h3{
+  font-size: 17pt;
+}
 .imagenessec1 img, .imagenessec2 img{
   width: 85%;
   margin-top: 2%;
@@ -60,11 +69,36 @@ footer{
   -webkit-flex-flow: row wrap;
   background: #C6d5c5;
   color: black;
+  border-radius: 0 0 10px 10px;
+
+
 }
 .pie{
   box-sizing: border-box;
+  padding: 6%;
   width: 25%;
+  font-size: 14pt;
+}
+.pie h3{
+  font-size: 16pt;
+  text-decoration: underline;
 }
 .pie img{
-  width: 8%;
+  width: 11%;
 }
+.imagenessec1 img{
+  -webkit-filter:drop-shadow(3px 3px 6px #82c3a6);
+  filter: drop-shadow(3px 3px 6px #82c3a6);
+  transition-duration: 2s;
+}
+.imagenessec1 img:hover{
+  transform: rotate(10deg);
+}
+.imagenessec2 img{
+  -webkit-filter:drop-shadow(3px 3px 6px #82c3a6);
+  filter: drop-shadow(3px 3px 6px #82c3a6);
+  transition-duration: 2s;
+}
+.imagenessec2 img:hover{
+    transform: translate(20px, -5px);
+  }
