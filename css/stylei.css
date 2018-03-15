@@ -7,7 +7,7 @@
   body{
     background-color:  #02010a;
     color: white;
-    font-size: 10%;
+    font-size: 16px;
     font-family: 'Dancing Script', cursive;
     font-size: 14pt;
   }
@@ -142,13 +142,14 @@
   }
   #contenido{
     width: 100%;
-    height: 100px;
+    height: 20%;
     min-height: 200px;
     margin: 0 auto;
     padding-top: 2%;
   }
   header{
-    height: 80px;
+    height: 65%;
+    padding-bottom: 1%;
     background-color: #5b7989;
     text-shadow: 2px 2px 3px #02010a;
     border-radius: 10px 10px 0 0 ;
@@ -156,6 +157,9 @@
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
+  }
+  #encabezado{
+    text-align: center;
   }
   .imagenessec{
     display:flex;
@@ -174,7 +178,9 @@
     color: white;
   }
   .imgcentral{
-    height: 300px;
+    width: 100%;
+    padding-bottom: 4%;
+    padding-top: 4%;
     background-color: #82c3a6;
     display: flex;
     justify-content: space-around;
@@ -213,15 +219,15 @@
   .pie{
     box-sizing: border-box;
     padding: 4%;
-    width: 100%;
-    font-size: 20pt;
+    width: 50%;
+    font-size: 18pt;
   }
   .pie h3{
     font-size: 25pt;
     text-decoration: underline;
   }
   .pie img{
-    width: 15%;
+    width: 20%;
   }
   .imagenessec1 img{
     -webkit-filter:drop-shadow(3px 3px 6px #82c3a6);

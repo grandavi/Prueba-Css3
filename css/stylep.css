@@ -121,37 +121,37 @@ header{
 /* Media para movil */
 
 @media screen and (max-width:899px) {
-  *{
-    margin: 0;
-  }
-  body{
-    background-color:  #02010a;
-    color: white;
-    font-size: 16px;
-    font-family: 'Dancing Script', cursive;
-    font-size: 14pt;
-  }
-  #contenido{
-    width: 900px;
-    height: 100px;
-    min-height: 200px;
-    margin: 0 auto;
-    padding-top: 2%;
-  }
-  header{
-    height: 80px;
-    background-color: #5b7989;
-    text-shadow: 2px 2px 3px #02010a;
-    border-radius: 10px 10px 0 0 ;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  .contimages .imgcentral img{
-    width: 90%;
-    box-shadow: 0px 10px 10px -10px black;
-  }
-
+	*{
+		margin: 0;
+	}
+	body{
+		background-color:  #02010a;
+		color: white;
+		font-size: 16px;
+		font-family: 'Dancing Script', cursive;
+		font-size: 14pt;
+	}
+	#contenido{
+		width: 100%;
+		height: 20%;
+		min-height: 200px;
+		margin: 0 auto;
+		padding-top: 2%;
+	}
+	header{
+		height: 65%;
+		padding-bottom: 1%;
+		background-color: #5b7989;
+		text-shadow: 2px 2px 3px #02010a;
+		border-radius: 10px 10px 0 0 ;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-around;
+		align-items: center;
+	}
+	#encabezado{
+		text-align: center;
+	}
   a{
     text-decoration: none;
   }
